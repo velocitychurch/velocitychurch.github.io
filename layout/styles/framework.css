@@ -35,7 +35,7 @@ html, body{margin:0; padding:0; font-size:14px; line-height:1.6em;}
 .circle{border-radius:50%; background-clip:padding-box;}
 
 .logoname{margin:0; padding:0; font-size:1.8rem; font-variant:small-caps;}
-.logoname::first-letter, .logoname span{margin:0 5px; font-size:2.4rem; font-weight:700; text-transform:uppercase;}
+.logoname span{margin:0 5px; font-size:2.4rem; font-weight:700; text-transform:uppercase;}
 .logoname::first-letter{margin-left:0;}
 
 .btn{display:inline-block; padding:8px 18px 10px; text-transform:uppercase; border:1px solid;}
