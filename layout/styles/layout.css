@@ -80,7 +80,7 @@ File: Layout CSS
 .team figure{display:block; text-align:center;}
 .team figure *{margin:0; padding:0;}
 .team figure a{}
-.team figure img{}
+.team figure img{ aspect-ratio: 9/13 ;}
 .team figure figcaption{padding:20px 10px; line-height:1; border:solid; border-width:0 1px 1px 1px;}
 .team figure strong{display:block; margin-bottom:8px; font-size:1.4rem; font-weight:400;}
 .team figure em{display:block; font-style:normal; font-size:.8rem;}
@@ -93,12 +93,18 @@ File: Layout CSS
 .pr-charts .pr-chart-ctrl .pr-chart i{position:absolute; top:0; left:0; width:100%; height:200px; line-height:200px; font-size:18px; font-style:normal;}/* Must have same height & line height as set in the javascript size element to vertical align centre */
 .pr-charts .pr-chart-ctrl p{margin:0; padding:0; text-transform:uppercase;}
 
+.pr-charts .pr-chart-ctrl .pr-chart i.ispercent::after {content:"%"}
+.pr-charts .pr-chart-ctrl .pr-chart i.isgrams::after {content:"gr."}
+.pr-charts .pr-chart-ctrl .pr-chart i.ismeters::after {content:"m"}
+.pr-charts .pr-chart-ctrl .pr-chart i.iscentimeters::after {content:"cm"}
+
+
 /* Testimonials */
 #testimonials{}
 #testimonials article{text-align:center;}
 #testimonials article *{margin:0; padding:0;}
 #testimonials article figure{display:inline-block; margin-bottom:20px;}
-#testimonials article figure img{float:left; margin-right:15px; border-radius:50%;}
+#testimonials article figure img{float:left; margin-right:15px; border-radius:50%;aspect-ratio: 16/11;}
 #testimonials article figure figcaption{float:left; margin-top:30px; font-size:1.4rem; text-align:left;}
 #testimonials article figure figcaption .heading{font-size:1.4rem;}
 #testimonials article figure figcaption em{display:block; margin-top:-5px; font-size:.8rem; font-style:normal;}
