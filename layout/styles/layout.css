@@ -126,7 +126,7 @@ File: Layout CSS
 --------------------------------------------------------------------------------------------------------------- */
 #ctdetails figure > ul li{position:relative; margin:0 0 35px 0; padding:15px 15px 15px 80px; line-height:1;}
 #ctdetails figure > ul li:last-child{margin:0;}/* Used when elements stack in small viewports */
-#ctdetails figure > ul li i{position:absolute; top:15px; left:15px; width:45px; height:45px; line-height:45px; font-size:16px; text-align:center; border-radius:50%;}
+#ctdetails figure > ul li i{position:absolute; top:13px; left:13px; width:45px; height:45px; line-height:45px; font-size:16px; text-align:center; border-radius:50%;}
 #ctdetails figure > ul li span{display:block; padding:4px 0 0 0;}
 #ctdetails figure > ul li strong{display:block; margin:0 0 8px 0; text-transform:capitalize;}
 
