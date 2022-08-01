@@ -84,7 +84,7 @@ File: Layout CSS
 #testimonials article{text-align:center;}
 #testimonials article *{margin:0; padding:0;}
 #testimonials article figure{display:inline-block; margin-bottom:20px;}
-#testimonials article figure img{float:left; margin-right:15px; border-radius:50%;aspect-ratio: 16/11;}
+#testimonials article figure img{float:left; margin-right:15px; border-radius:50%;aspect-ratio: 16/11; width: 100%}
 #testimonials article figure figcaption{float:left; margin-top:30px; font-size:1.4rem; text-align:left;}
 #testimonials article figure figcaption .heading{font-size:1.4rem;}
 #testimonials article figure figcaption em{display:block; margin-top:-5px; font-size:.8rem; font-style:normal;}
