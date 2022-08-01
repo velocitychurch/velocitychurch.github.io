@@ -76,11 +76,11 @@ File: Layout CSS
 
 /* Team Members */
 .team{}
-.team li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
+/*.team li:last-child{margin-bottom:0;}/* Used when elements stack in small viewports */
 .team figure{display:block; text-align:center;}
 .team figure *{margin:0; padding:0;}
 .team figure a{}
-.team figure img{ aspect-ratio: 9/13 ;}
+.team figure img{ aspect-ratio: 9/13 ; width: 100%;}
 .team figure figcaption{padding:20px 10px; line-height:1; border:solid; border-width:0 1px 1px 1px;}
 .team figure strong{display:block; margin-bottom:8px; font-size:1.4rem; font-weight:400;}
 .team figure em{display:block; font-style:normal; font-size:.8rem;}
