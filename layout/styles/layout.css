@@ -361,10 +361,14 @@ input:focus, textarea:focus, *:required:focus{border-color:#97A9BD !important;}
 
 
 /* Contact Details */
-#ctdetails figure > ul li{color:inherit; background-color:#FFFFFF;}
-#ctdetails figure > ul li:hover a{color:#FFFFFF;}
-#ctdetails figure > ul li:hover, #ctdetails figure > ul li a i{color:#FFFFFF; background-color:#97A9BD;}/* Default */
-#ctdetails figure > ul li:hover a i{color:#97A9BD; background-color:#FFFFFF;}/* Default */
+#ctdetails figure > ul li,
+#ctdetails figure > ul a li {color:inherit; background-color:#FFFFFF;}
+#ctdetails figure > ul li:hover a
+#ctdetails figure > ul a li:hover{color:#FFFFFF;}
+#ctdetails figure > ul li:hover, #ctdetails figure > ul li a i,
+#ctdetails figure > ul a li:hover, #ctdetails figure > ul a li i {color:#FFFFFF; background-color:#97A9BD;}/* Default */
+#ctdetails figure > ul li:hover a i,
+#ctdeatils figure > ul a li:hover i{color:#97A9BD; background-color:#FFFFFF;}/* Default */
 
 /* ###### DELETE THE FOLLOWING IF ONLY THE DEFAULT COLOUR IS REQUIRED ###### */
 #ctdetails figure > ul li:hover, #ctdetails figure > ul li a i{color:#FFFFFF; background-color:#A197BD;}
